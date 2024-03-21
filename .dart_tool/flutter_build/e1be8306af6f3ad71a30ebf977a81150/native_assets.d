@@ -1,0 +1,1 @@
+ /home/luffy/Downloads/University_Watch-main/.dart_tool/flutter_build/e1be8306af6f3ad71a30ebf977a81150/native_assets.yaml: 

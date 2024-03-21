@@ -57,7 +57,7 @@ class _AboutPageState extends State<AboutPage> {
         appBar: AppBar(
           centerTitle: true,
           title: const Text(
-            'About',
+            'University Watch',
           ),
         ),
         body: Padding(
@@ -73,7 +73,7 @@ class _AboutPageState extends State<AboutPage> {
                   child: Markdown(
                       shrinkWrap: true,
                       data:
-                          '''## University Watch\nDescription:\nUniversity Watch is a social media platform designed to facilitate communication within university communities.\nWhether you're a student, faculty member, or staff member, University Watch provides a centralized platform for sharing timely information, organizing events, and connecting with others on campus.\n\nMission:\nOur mission at University Watch is to enhance communication and collaboration within university communities, fostering a supportive environment for learning, engagement, and innovation.\n\n- Terms of Service\n- Privacy Policy\n- Copyright © 2024 University Watch. All rights reserved.\n\nConnect with us on social media:\n- Facebook: [Link]\n- Twitter: [Link]\n- Instagram: [Link]\n\nUniversity Watch utilizes the following third-party resources:\n- Firebase (Authentication and Database)\n- React Native (Mobile App Framework)\n- Icons by FontAwesome\n'''),
+                          '''## About \n ### Description:\n University Watch is a social media platform designed to facilitate communication within university communities. \n Whether you're a student, faculty member, or staff member, University Watch provides a centralized platform for sharing timely information, organizing events, and connecting with others on campus.\n\n ### Mission: \nOur mission at University Watch is to enhance communication and collaboration within university communities, fostering a supportive environment for learning, engagement, and innovation.\n\n- Terms of Service\n- Privacy Policy\n- Copyright © 2024 University Watch. All rights reserved.\n\n ### Connect with us on social media:\n- Facebook: [University Watch]\n- Twitter: [University Watch]\n- Instagram: [@universitywatch]\n\nUniversity Watch utilizes the following third-party resources:\n- Firebase (Authentication and Database)\n- Flutter (Mobile App Framework)\n- Icons by FontAwesome\n'''),
                 ),
                 // Column(
                 //   children: [
